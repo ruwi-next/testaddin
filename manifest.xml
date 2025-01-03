@@ -68,7 +68,6 @@
             <FunctionFile resid="Commands.Url" />
             <ExtensionPoint xsi:type="LaunchEvent">
               <LaunchEvents>
-                <LaunchEvent Type="OnMessageCompose" FunctionName="onMessageCompose"/>
                 <LaunchEvent Type="OnMessageSend" FunctionName="onMessageSend" SendMode="SoftBlock"/>
                 <LaunchEvent Type="OnMessageAttachmentsChanged" FunctionName="onAttachmentsChanged"/>
               </LaunchEvents>
